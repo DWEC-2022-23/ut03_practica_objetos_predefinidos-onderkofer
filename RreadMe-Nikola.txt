@@ -1,0 +1,2 @@
+en el archivo html he utilizado bootstrap un poquito por lo que pueden salir un poco descolocadas las cosas
+porque si meto la carpeta js y css de bootstrap me sube los archivos por separado y son mas de 30 archivos.
