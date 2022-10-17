@@ -165,9 +165,9 @@ let radio=prompt("Introduce un radio");
 function mitadCar(){
   
   let string = str.value;
-	string.split("",string.length/2).join("").replace(",","");
+  let d=string.split("",string.length/2).join("").replace(",","");
 
-  alert(string);
+  alert(d);
 
 }
 
@@ -182,23 +182,23 @@ function ultimoCaracter(){
 function cadenaInversa(){
 
   let str2=str.value;
-  str2.split("").reverse().join("");
+  let a=str2.split("").reverse().join("");
   
-  alert(str2);
+  alert(a);
 }
 
 function cadenaGuiones(){
 
   let str3=str.value;
-  str3.split("").join("-");
+  let b=str3.split("").join("-");
 
-  alert(str3);
+  alert(b);
 }
 
 function contarVocales(){
 
   let regex=/[aeiou]/gi;
   let str4=str.value;
-
-  alert("numero de vocales:" + str4.match(regex).length);
+  let c= str4.match(regex).length
+  alert(`el numero de las vocales es:${c}`);
 }
