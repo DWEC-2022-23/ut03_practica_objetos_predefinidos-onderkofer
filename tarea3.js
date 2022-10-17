@@ -124,10 +124,6 @@ switch(actMonth){
   case 11:
     monthNow="diciembre";
   break;
-
-  default:
-    alert("el mes no existe");
-    break;
 }
 
 alert(`hoy es ${weekDnow}, ${monthDay} de ${monthNow} de ${actYear} y son las ${hours}:${mins} horas.`);
