@@ -45,12 +45,12 @@ function  fechaActual(){
 let date=document.getElementById("DATE").value;
 
 
-let actYear=date.getFullYear; //returns year
-let actMonth=date.getMonth //returns month
-let monthDay=date.getDay; //returns day of the month
-let weekDay=date.getDate; //returns day of the week
-let hours=date.getHours; //hours
-let mins=date.getMinutes //minutes
+let actYear=date.getFullYear(); //returns year
+let actMonth=date.getMonth(); //returns month
+let monthDay=date.getDay(); //returns day of the month
+let weekDay=date.getDate(); //returns day of the week
+let hours=date.getHours(); //hours
+let mins=date.getMinutes(); //minutes
 
 if(weekDay==0){
    weekDnow="domingo"
